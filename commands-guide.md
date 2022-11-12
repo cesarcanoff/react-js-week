@@ -9,3 +9,8 @@ npx create-react-app meuapp
 ```bash
 npm start
 ```
+
+## Instalar a biblioteca React Router Dom
+```bash
+npm install react-router-dom
+```
