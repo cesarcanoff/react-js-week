@@ -1,5 +1,16 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
   font-family: sans-serif;
+  background: linear-gradient(#232630, #050507);
+}
+
+button {
+  cursor: pointer;
 }
