@@ -1,21 +1,29 @@
 import React from "react";
 
-export default function App() {
-  return (
-    <div>
-      <h1>My Links</h1>
-    </div>
-  );
-}
+import { createBrowserRouter } from "react-router-dom";
 
-/*
-<Student name="Anna" course="Software Engineering" />
-function Student({ name, course }) {
-    return (
-      <div>
-        <h2>Bem-vindo {name}</h2>
-        <h2>Bem-vindo {course}</h2>
-      </div>
-    );
-  }
-*/
+import Admin from "./pages/Admin";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Error from "./pages/Error";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
+  },
+  {
+    path: "*",
+    element: <Error />,
+  },
+]);
+
+export { router };
