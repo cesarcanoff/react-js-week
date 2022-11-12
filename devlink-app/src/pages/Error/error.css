@@ -7,3 +7,25 @@
   min-height: 100vh;
   color: #fff;
 }
+
+.error h1 {
+  margin-bottom: 6px;
+}
+
+.error p {
+  font-style: italic;
+}
+
+.error .link {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 4px 16px;
+  margin-top: 14px;
+  border-radius: 4px;
+  color: #000;
+  transition: background-color, transform 300ms;
+}
+
+.error .link:hover {
+  background-color: #fff;
+  transform: scale(1.05);
+}
