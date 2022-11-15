@@ -29,7 +29,7 @@ export default function Private({ children }) {
   }, []);
 
   if (loading) {
-    return <></>;
+    return;
   }
 
   if (!signed) {

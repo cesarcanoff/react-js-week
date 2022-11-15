@@ -1,12 +1,10 @@
 import React from "react";
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Admin from "./pages/Admin";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Error from "./pages/Error";
-
+import Networks from "./pages/Networks";
 import Private from "./routes/Private";
 
 function App() {
@@ -14,6 +12,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/*" element={<Error />} />
+        <Route path="/login" element={<Login />} />
         <Route
           path="/admin"
           element={
@@ -22,8 +22,14 @@ function App() {
             </Private>
           }
         />
-        <Route path="/login" element={<Login />} />
-        <Route path="/*" element={<Error />} />
+        <Route
+          path="/admin/social"
+          element={
+            <Private>
+              <Networks />
+            </Private>
+          }
+        />
       </Routes>
     </Router>
   );
