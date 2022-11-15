@@ -6,6 +6,10 @@
 ## 🟢 What is it?
 ### It is a workshop held by the Programmer Subject (Matheus), in this event a Web application was developed for creating and listing links.
 
+## 🟢 Technologies
+
+<img title="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" height="40" width="52" alt="html5 logo"  /><img title="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" height="40" width="52" alt="css3 logo"  />  <img title="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="52" alt="react logo"  /><img title="Javascript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  /> <img title="Firebase" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="45" width="62" />
+
 ## 🟢 Classes:
 - Starting Your Journey
 - Evolving Our Application
