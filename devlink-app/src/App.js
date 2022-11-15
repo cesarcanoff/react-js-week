@@ -7,12 +7,21 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Error from "./pages/Error";
 
+import Private from "./routes/Private";
+
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route
+          path="/admin"
+          element={
+            <Private>
+              <Admin />
+            </Private>
+          }
+        />
         <Route path="/login" element={<Login />} />
         <Route path="/*" element={<Error />} />
       </Routes>

@@ -17,3 +17,21 @@ npm start
 ```bash
 npm install react-router-dom
 ```
+
+## Instalar a biblioteca React Icons
+
+```bash
+npm install react-icons
+```
+
+## Instalar o Firebase
+
+```bash
+npm install firebase
+```
+
+## Instalar o Toastify
+
+```bash
+npm install react-toastify
+```
